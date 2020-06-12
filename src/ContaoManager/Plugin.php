@@ -8,13 +8,13 @@
  * @license LGPL-3.0-or-later
  */
 
-namespace LocalbrandingDe\BrandingBundle\ContaoManager;
+namespace LocalbrandingDe\LocalwebShopBundle\ContaoManager;
 
 use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
 use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
 use Contao\ManagerPlugin\Bundle\Parser\ParserInterface;
-use LocalbrandingDe\BrandingBundle\BrandingBundle;
+use LocalbrandingDe\LocalwebShopBundle\LocalwebShopBundle;
 
 class Plugin implements BundlePluginInterface
 {
@@ -24,7 +24,7 @@ class Plugin implements BundlePluginInterface
     public function getBundles(ParserInterface $parser)
     {
         return [
-            BundleConfig::create(BrandingBundle::class)
+            BundleConfig::create(LocalwebShopBundle::class)
             ->setLoadAfter([ContaoCoreBundle::class,'LeadingSystems\MerconisBundle\LeadingSystemsMerconisBundle']),
         ];
     }
