@@ -1,6 +1,6 @@
 <?php 
 
-namespace LocalbrandingDe\BrandingBundle\EventListener;
+namespace LocalbrandingDe\LocalwebShopBundle\EventListener;
 use \Datetime;
 class MerconisHookClass// Klassenname = Dateiname (ohne .php)
 {
