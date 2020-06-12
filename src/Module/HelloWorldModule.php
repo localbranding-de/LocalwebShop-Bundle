@@ -1,6 +1,6 @@
 <?php
 
-namespace LocalbrandingDe\MembershiplevelsBundle;
+namespace LocalbrandingDe\LocalwebShopBundleBundle;
 
 class HelloWorldModule extends \Module
 {
