@@ -8,10 +8,10 @@
  * @license LGPL-3.0-or-later
  */
 
-namespace LocalbrandingDe\BrandingBundle;
+namespace LocalbrandingDe\LocalwebShopBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class BrandingBundle extends Bundle
+class LocalwebShopBundle extends Bundle
 {
 }
