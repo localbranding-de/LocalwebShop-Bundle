@@ -1,5 +1,5 @@
 {
-	"name" : "localbranding-de/branding-bundle",
+	"name" : "localbranding-de/LocalwebShop-bundle",
 	"version" : "1.0.0",
 	"type" : "contao-bundle",
 	"description" : "Contao/Merconis Extension for an extended Product description",
@@ -33,16 +33,16 @@
 	},
 	"autoload" : {
 		"psr-4" : {
-			"LocalbrandingDe\\BrandingBundle\\" : "src/"
+			"LocalbrandingDe\\LocalwebShop\\" : "src/"
 		}
 	},
 	"autoload-dev" : {
 		"psr-4" : {
-			"LocalbrandingDe\\BrandingBundle\\Tests\\" : "tests/"
+			"LocalbrandingDe\\LocalwebShop\\Tests\\" : "tests/"
 		}
 	},
 	"support" : {
-		"issues" : "https://github.com/localbranding-de/branding-bundle/issues",
-		"source" : "https://github.com/localbranding-de/branding-bundle"
+		"issues" : "https://github.com/localbranding-de/LocalwebShop-bundle/issues",
+		"source" : "https://github.com/localbranding-de/LocalwebShop-bundle"
 	}
 }
