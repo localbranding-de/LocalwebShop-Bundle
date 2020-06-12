@@ -8,14 +8,14 @@
  * @license LGPL-3.0-or-later
  */
 
-namespace LocalbrandingDe\BrandingBundle\DependencyInjection;
+namespace LocalbrandingDe\LocalwebShopBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
-class BrandingExtension extends Extension
+class LocalwebShopExtension extends Extension
 {
     /**
      * {@inheritdoc}
