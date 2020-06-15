@@ -29,16 +29,16 @@
 		"symfony/phpunit-bridge" : "^3.2"
 	},
 	"extra" : {
-		"contao-manager-plugin" : "LocalbrandingDe\\LocalwebshopBundle\\ContaoManager\\Plugin"
+		"contao-manager-plugin" : "LocalbrandingDe\\LocalwebShopBundle\\ContaoManager\\Plugin"
 	},
 	"autoload" : {
 		"psr-4" : {
-			"LocalbrandingDe\\LocalwebshopBundle\\" : "src/"
+			"LocalbrandingDe\\LocalwebShopBundle\\" : "src/"
 		}
 	},
 	"autoload-dev" : {
 		"psr-4" : {
-			"LocalbrandingDe\\LocalwebshopBundle\\Tests\\" : "tests/"
+			"LocalbrandingDe\\LocalwebShopBundle\\Tests\\" : "tests/"
 		}
 	},
 	"support" : {
