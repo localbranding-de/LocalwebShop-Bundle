@@ -1,6 +1,6 @@
 {
-	"name" : "localbranding-de/LocalwebShop-bundle",
-	"version" : "1.0.0",
+	"name" : "localbranding-de/localwebShop-bundle",
+	"version" : "1.0.1",
 	"type" : "contao-bundle",
 	"description" : "Contao/Merconis Extension for an extended Product description",
 	"license" : "LGPL-3.0-or-later",
