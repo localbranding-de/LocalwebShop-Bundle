@@ -29,7 +29,6 @@ if ('BE' === TL_MODE) {
     
 }
 
-<?php
 
 /**
  * notification_center extension for Contao Open Source CMS
