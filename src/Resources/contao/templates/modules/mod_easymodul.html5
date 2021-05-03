@@ -1,0 +1,17 @@
+
+<link rel="stylesheet" href="files/merconisfiles/themes/theme8/css/dropdown.css">
+ 
+<div class="dropdown">
+  <input type="button" value="Standort wählen" class="dropbtn">
+  <div class="dropdown-content">
+  <?php foreach ($this->locations as $location) 
+  {
+  
+		echo $location;
+
+  }
+?>  
+  </div>
+ 
+</div> 
+
