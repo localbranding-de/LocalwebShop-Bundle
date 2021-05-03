@@ -1,16 +1,12 @@
 <?php
-
 /**
  * Hooks.
 
 
-$GLOBALS['TL_HOOKS']['outputBackendTemplate'][] = array(\LocalbrandingDe\LocalwebShopBundle\EventListener\OutputBackendTemplateListener::class, 'myOutputBackendTemplate');
-$GLOBALS['TL_HOOKS']['parseTemplate'][] = array(\LocalbrandingDe\LocalwebShopBundle\EventListener\FrontendTemplateListener::class, 'myParseFrontendTemplate');
 //$GLOBALS['TL_HOOKS']['parseBackendTemplate'][] = array(\LocalbrandingDe\LocalwebShopBundle\EventListener\ParseBackendTemplateListener::class, 'addScripts');
 $GLOBALS['TL_HOOKS']['activateAccount'][] = array(\LocalbrandingDe\LocalwebShopBundle\EventListener\activateAccountListener::class, 'myActivateAccount');
 $GLOBALS['TL_HOOKS']['outputFrontendTemplate'][] = array(\LocalbrandingDe\LocalwebShopBundle\EventListener\FrontendTemplateListener::class, 'myOutputFrontendTemplate');
 // Frontend modules
-$GLOBALS['FE_MOD']['miscellaneous']['helloWorld'] = 'LocalbrandingDe\LocalwebShopBundle\HelloWorldModule';
 //$GLOBALS['MERCONIS_HOOKS']['beforeAddToCart'][] = array(\LocalbrandingDe\LocalwebShopBundle\EventListener\MerconisHookClass::class, 'myBeforeAddToCart');
 //$GLOBALS['TL_HOOKS']['createNewUser'][] = array(\LocalbrandingDe\LocalwebShopBundle\EventListener\createNewUserListener::class, 'myCreateNewUser');
 if (TL_MODE == 'BE') {
@@ -25,7 +21,7 @@ $GLOBALS['MERCONIS_HOOKS']['afterCheckout'][] = array(\LocalbrandingDe\LocalwebS
 $GLOBALS['MERCONIS_HOOKS']['storeCartItemInOrder'][] = array(\LocalbrandingDe\LocalwebShopBundle\EventListener\MerconisHookClass::class, 'myStoreCartItemInOrder');
 if ('BE' === TL_MODE) {
 
-        $GLOBALS['TL_CSS'][] = '/bundles/branding/css/backend_svg.css';
+        $GLOBALS['TL_CSS'][] = '/bundles/localwebshop/css/backend_svg.css';
     
 }
 
@@ -71,7 +67,7 @@ array_insert($GLOBALS['BE_MOD'], 1, array
  */
 
 // Registrieren im Hooks replaceInsertTags
-//$GLOBALS['TL_HOOKS']['replaceInsertTags'][] = array('\CalenderBooking\classes\modules\LbInserttagClass', 'myReplaceInsertTags');
+//$GLOBALS['TL_HOOKS']['replaceInsertTags'][] = array('LocalbrandingDe\LocalwebShopBundle\Classes\modules\LbInserttagClass', 'myReplaceInsertTags');
 
 $GLOBALS['TL_LANG']['STATES']['BW']    = 'Baden Württemberg';
 $GLOBALS['TL_LANG']['STATES']['BY']    = 'Bayern';
@@ -90,8 +86,8 @@ $GLOBALS['TL_LANG']['STATES']['ST']  = 'Sachsen-Anhalt';
 $GLOBALS['TL_LANG']['STATES']['SH']  = 'Schleswig-Holstein';
 $GLOBALS['TL_LANG']['STATES']['TH']  = 'Thüringen';
 
-$GLOBALS['FE_MOD']['calendarbooking'] = array('lb_booking'=>'\CalendarBooking\classes\modules\easymodul');
-$GLOBALS['TL_FFL']['lb_calendarfield']     = LbCalendarFormField::class;
-$GLOBALS['FE_MOD']['miscellaneous']['locationselect'] = '\CalendarBooking\classes\modules\easymodul';
+//$GLOBALS['FE_MOD']['calendarbooking'] = array('lb_booking'=>'LocalbrandingDe\LocalwebShopBundle\Classes\easymodul');
+//$GLOBALS['FE_MOD']['miscellaneous']['locationselect'] = 'LocalbrandingDe\LocalwebShopBundle\Classes\LocationselectModule';
+$GLOBALS['FE_MOD']['miscellaneous']['Locationselect'] = 'LocalbrandingDe\LocalwebShopBundle\Classes\LocationselectModule';
 
 
