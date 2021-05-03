@@ -88,6 +88,6 @@ $GLOBALS['TL_LANG']['STATES']['TH']  = 'Thüringen';
 
 //$GLOBALS['FE_MOD']['calendarbooking'] = array('lb_booking'=>'LocalbrandingDe\LocalwebShopBundle\Classes\easymodul');
 //$GLOBALS['FE_MOD']['miscellaneous']['locationselect'] = 'LocalbrandingDe\LocalwebShopBundle\Classes\LocationselectModule';
-$GLOBALS['FE_MOD']['miscellaneous']['Locationselect'] = 'LocalbrandingDe\LocalwebShopBundle\classes\LocationselectModule';
+$GLOBALS['FE_MOD']['miscellaneous']['Locationselect'] = 'LocalbrandingDe\LocalwebShopBundle\Classes\LocationselectModule';
 
 
