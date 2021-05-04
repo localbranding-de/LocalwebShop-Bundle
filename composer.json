@@ -4,6 +4,8 @@
 	"type" : "contao-bundle",
 	"description" : "Contao/Merconis Extension for an extended Product description",
 	"license" : "LGPL-3.0-or-later",
+	"minimum-stability": "dev",
+	"prefer-stable": true,
 	"authors" : [{
 			"name" : "Localbranding-de",
 			"homepage" : "https://github.com/localbranding-de"
